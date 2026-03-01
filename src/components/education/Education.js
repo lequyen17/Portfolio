@@ -8,6 +8,8 @@ import SchoolIcon from '@mui/icons-material/School';
 import { TimelineBlock } from '..';
 
 
+import educationPhoto from '../../assets/fpt.jpg'
+
 function Education() {
     return (
         <div className='education workexperience'>
@@ -15,8 +17,12 @@ function Education() {
                 <h2>Education</h2>
             </div>
             <div className='timeline-container'>
-                <TimelineBlock icon={<SchoolIcon fontSize='large' />} title='University' duration='Oct 2023 - Present' uni='Đại Học FPT Hà Nội' 
-                
+                <TimelineBlock
+                    icon={<SchoolIcon fontSize='large' />}
+                    title='University'
+                    duration='Oct 2023 - Present'
+                    uni='Đại Học FPT Hà Nội'
+                    image={educationPhoto}
                 text={
   <>
     Software Engineering <br />

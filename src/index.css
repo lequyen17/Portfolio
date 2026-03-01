@@ -3,12 +3,17 @@
 :root {
   --font-family: 'Manrope', sans-serif;
 
-  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
-  
-  --color-bg: #040C18;
-  --color-footer : #05274b;
-  --color-blog: #042c54;
-  --color-text: #81AFDD;
-  --color-subtext: #FF8A71;
+  /* Tối giản, ấm & dễ đọc */
+  --gradient-text: linear-gradient(135deg, #c4b5fd 0%, #f9a8d4 100%);
+  --gradient-bar: linear-gradient(135deg, #a78bfa 0%, #f472b6 100%);
+
+  --color-bg: #0f0f12;
+  --color-bg-soft: #18181b;
+  --color-footer: #18181b;
+  --color-blog: #27272a;
+  --color-text: #a1a1aa;
+  --color-text-bright: #e4e4e7;
+  --color-subtext: #f472b6;
+  --color-accent: #a78bfa;
+  --color-accent-warm: #fb7185;
 }

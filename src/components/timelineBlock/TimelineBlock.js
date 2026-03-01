@@ -1,9 +1,9 @@
 import React from 'react'
 import './timelineblock.css'
 
-function TimelineBlock({ icon, title, duration, uni, text}) {
+function TimelineBlock({ icon, title, duration, uni, text, image }) {
     return (
-        <div className='timeline-block'>
+        <div className={`timeline-block ${image ? 'timeline-block--with-image' : ''}`}>
             <div className='timeline-icon'>
                 {icon}
             </div>
@@ -14,8 +14,15 @@ function TimelineBlock({ icon, title, duration, uni, text}) {
             </div>
 
             <div className='timeline-content'>
-                <h3>{uni}</h3>
-                <p>{text}</p>
+                {image && (
+                    <div className='timeline-content-photo'>
+                        <img src={image} alt='' />
+                    </div>
+                )}
+                <div className='timeline-content-text'>
+                    <h3>{uni}</h3>
+                    <p>{text}</p>
+                </div>
             </div>
         </div>
     )

@@ -6,7 +6,8 @@ import './works.css'
 
 
 
-import Project from '../../assets/projects/wrs.jpg'
+import Project1 from '../../assets/projects/wrs.jpg'
+import Project2 from '../../assets/projects/portfolio.jpg'
 
 
 
@@ -16,10 +17,15 @@ function Works() {
         <h1 className='gradient-text'>Portfolio</h1>
         <h3>Check Out Some of My Projects.</h3>
             <div className='works-container'>
-                <Work image={Project} title="Warehouse Rental System" 
+                <Work image={Project1} title="Warehouse Rental System" 
                 subTitle="Full-stack developer" 
                 text="A warehouse rental management system supporting warehouse, storage unit, renter, and rental request management." 
                 codeLink="https://github.com/lequyen17/WarehouseRentalSystem" />
+
+                <Work image={Project2} title="Portfolio" 
+                subTitle="Full-stack developer" 
+                text="A warehouse rental management system supporting warehouse, storage unit, renter, and rental request management." 
+                codeLink="https://github.com/lequyen17/Portfolio" />
             </div>
         </div>
     )

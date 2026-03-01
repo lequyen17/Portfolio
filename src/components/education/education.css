@@ -1,0 +1,5 @@
+/* Education section - dùng chung layout workexperience, chỉ khác màu heading */
+.education-heading.workexperience-heading h2 {
+    color: var(--color-subtext);
+    font-weight: 600;
+}

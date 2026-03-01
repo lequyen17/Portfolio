@@ -29,7 +29,7 @@
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 45.7px;
-    color: #fff;
+    color: var(--color-text-bright);
     margin-top: -17px;
     letter-spacing: 3px;
 }
@@ -47,7 +47,7 @@
     align-items: center;
     justify-content: center;
     min-height: 50px;
-    background: #FF4820;
+    background: var(--color-accent);
     border-radius: 5px;
     font-size: 20px;
     line-height: 27px;
@@ -198,3 +198,33 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 
 
 /* Scroll animation ends here */
+
+/* ===== Hero Image Upgrade ===== */
+
+.hero-image {
+    position: relative;
+}
+
+/* Fix layout cho ảnh */
+.hero-image img {
+    max-width: 420px;
+    width: 100%;
+    margin-right: 100px;
+
+    border-radius: 24px;
+    object-fit: cover;
+
+    box-shadow: 
+        0 20px 40px rgba(0, 0, 0, 0.4),
+        0 0 0 4px rgba(255, 255, 255, 0.05);
+
+    transition: all 0.4s ease;
+}
+
+/* Hover effect nhẹ nhàng */
+.hero-image img:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 
+        0 30px 60px rgba(0, 0, 0, 0.6),
+        0 0 0 4px rgba(167, 139, 250, 0.35);
+}

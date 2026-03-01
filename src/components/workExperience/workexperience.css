@@ -11,7 +11,8 @@
 }
 
 .workexperience-heading h2{
-    color: #FF4820;
+    color: var(--color-subtext);
+    font-weight: 600;
 }
 
 .timeline-container{

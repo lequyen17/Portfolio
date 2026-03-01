@@ -19,8 +19,7 @@ function Works() {
                 <Work image={Project} title="Warehouse Rental System" 
                 subTitle="Full-stack developer" 
                 text="A warehouse rental management system supporting warehouse, storage unit, renter, and rental request management." 
-                codeLink="https://github.com/tinkerhubemea/students-profile" />
-
+                codeLink="https://github.com/lequyen17/WarehouseRentalSystem" />
             </div>
         </div>
     )
